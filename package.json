@@ -1,0 +1,23 @@
+{
+  "name": "bazel-npm-dependency-issue",
+  "version": "1.0.0",
+  "description": "repro of a bazel issue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpanta/bazel-npm-dependency-issue.git"
+  },
+  "author": "vpanta",
+  "bugs": {
+    "url": "https://github.com/vpanta/bazel-npm-dependency-issue/issues"
+  },
+  "homepage": "https://github.com/vpanta/bazel-npm-dependency-issue#readme",
+  "dependencies": {
+    "@bazel/bazel": "^2.1.0",
+    "chokidar": "^2.1.8",
+    "typescript": "^3.8.3",
+    "web-embed-lab": "^0.2.11"
+  },
+  "devDependencies": {
+    "@bazel/typescript": "^1.6.1"
+  }
+}
