@@ -11,13 +11,19 @@
     "url": "https://github.com/vpanta/bazel-npm-dependency-issue/issues"
   },
   "homepage": "https://github.com/vpanta/bazel-npm-dependency-issue#readme",
+  "scripts": {
+    "postinstall": "lerna bootstrap --hoist"
+  },
   "dependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.5.5",
     "@bazel/bazel": "^2.1.0",
-    "chokidar": "^2.1.8",
+    "tar": "^4.4.13",
     "typescript": "^3.8.3",
     "web-embed-lab": "^0.2.11"
   },
   "devDependencies": {
-    "@bazel/typescript": "^1.6.1"
+    "@bazel/typescript": "^1.6.1",
+    "lerna": "^3.20.2"
   }
 }

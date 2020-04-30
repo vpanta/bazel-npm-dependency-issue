@@ -1,0 +1,11 @@
+0 silly argv {
+0 silly argv   _: [ 'bootstrap' ],
+0 silly argv   hoist: true,
+0 silly argv   lernaVersion: '3.20.2',
+0 silly argv   '$0': '/Users/vasilios/src/bazel-npm-dependency-issue/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v3.20.2
+2 verbose rootPath /Users/vasilios/src/bazel-npm-dependency-issue
+3 error JSONError: Unexpected token } in JSON at position 119 while parsing near '..."main": "index.js",}' in packages/dummy-package/package.json
+3 error     at module.exports (/Users/vasilios/src/bazel-npm-dependency-issue/node_modules/parse-json/index.js:26:19)
+3 error     at parse (/Users/vasilios/src/bazel-npm-dependency-issue/node_modules/load-json-file/index.js:15:9)
